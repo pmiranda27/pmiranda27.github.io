@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Login/style.css">
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- Icon -->
+    <link rel="shortcut icon" href="Images/icon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="cabeca">
+            <!-- Título -->
+            <div class="logo">
+                <h1>Quark</h1>
+                <img src="Images/logo.png" width="100px">
+            </div>
+        </div>
+        
+        <!-- Barras para Digitar -->
+        <div id="login">
+            <form action="login.php" method="post">
+                <input type="email" name="login" placeholder="E-mail..." id="loginBarra" required> 
+                <input type="password" name="senha" placeholder="Senha..." id="senhaBarra" required>
+                
+                <!-- TIRAR O COMENTÁRIO QUANDO BACK-END FOR CONFECCIONADO -->
+                <!-- <input type="submit" id="botaoEntrar" value="Entrar"> -->
+             </form> 
+             
+        </div>
+        <!-- PLACEHOLDER até aprendermos PHP -->
+        <a href="myprofile.html"><button id="botaoEntrarPlaceHolder">Entrar</button></a>
+    </main>
+</body>
+</html>

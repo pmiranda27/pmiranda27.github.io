@@ -1,0 +1,100 @@
+.informacoes {
+    margin: 0;
+    margin-top: 3vh;
+    margin-left: 5vh;
+    width: 60vh;
+    height: 100vh;
+}
+
+#faleConosco {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 8vh;
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+#localizacao {
+    font-family: 'Inter', sans-serif;
+    font-size: 8vh;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2vh;
+}
+
+#telefone {
+    background-color: #D9D9D9;
+    margin-bottom: 16px;
+    width: 36.5vw;
+    height: 5.5vh;
+
+    border: 2px solid black;
+    border-radius: 16px;
+    
+    padding: 8px;
+
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+}
+
+#email {
+    background-color: #D9D9D9;
+    margin-bottom: 16px;
+    width: 36.5vw;
+    height: 5.5vh;
+
+    border: 2px solid black;
+    border-radius: 16px;
+    
+    padding: 8px;
+
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+}
+
+#mensagem{
+    display: flex;
+    align-items: center;
+
+    background-color: #D9D9D9;
+    margin-bottom: 16px;
+    width: 37vw;
+    height: 8vh;
+
+    border: 2px solid black;
+    border-radius: 16px;
+    
+    padding-left: 8px;
+
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+}
+
+#barraMensagem{
+    height: 5.5vh;
+    width: 143%;
+
+    border: 2px solid black;
+    border-radius: 16px;
+
+    margin-left: 8px;
+
+    padding-left: 8px;
+
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#endereco {
+    background-color: #D9D9D9;
+    margin-bottom: 16px;
+    width: 36.5vw;
+
+    border: 2px solid black;
+    border-radius: 16px;
+    
+    padding: 8px;
+
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+}
