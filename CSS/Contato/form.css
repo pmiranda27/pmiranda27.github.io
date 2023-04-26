@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+#formMensagens {
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: none;
+
+    
+    width: 37.5vw;
+    height: 67vh;
+
+    background-color: #D9D9D9;
+
+    border: 2px solid black;
+    border-radius: 16px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#titleForm {
+    margin-top: 16px;
+
+    width: 100%;
+    font-size: xx-large;
+    font-family: 'Inter', sans-serif;
+
+    text-align: center;
+}
+
+.infoForm {
+    margin-top: 16px;
+    margin-left: 8px;
+
+    width: 10vw;
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+}
+
+#barraNome{
+    width: 95%;
+    height: 4vh;
+
+    padding-left: 8px;
+
+    margin-left: 8px;
+    margin-top: 4px;
+
+    border: 1.5px solid black;
+    border-radius: 16px;
+}
+
+#barraEmail{
+    width: 95%;
+    height: 4vh;
+
+    padding-left: 8px;
+
+    margin-left: 8px;
+    margin-top: 4px;
+
+    border: 1.5px solid black;
+    border-radius: 16px;
+}
+
+#barraMensagem{
+    height: 9vh;
+
+    padding-left: 8px;
+
+    margin-top: 4px;
+    margin-left: 8px;
+
+    border: 1.5px solid black;
+    border-radius: 16px;
+
+    padding-left: 8px;
+
+    font-size: small;
+    font-family: 'Inter', serif;
+}
+
+#linhaEnviar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100%;
+}
+
+#enviarForm {
+    display: flex;
+    justify-content: center;
+
+    font-size: large;
+    color: white;
+
+    width: 9vw;
+    height: 7vh;
+
+    margin-top: 16px;
+
+    background-color: #3430D0;
+    cursor: pointer;
+
+    border: 2px solid black;
+    border-radius: 16px;
+
+    transition: background-color 0.25s;
+}
+
+#enviarForm:hover{
+    background-color: #242099;
+}

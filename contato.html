@@ -49,8 +49,27 @@
 
                 <div id="mensagem">
                     <strong>Mensagem:</strong>
-                    <form action="mensagem.php" method="get">
+                    <div id="botoesMensagem">
+                        <button id="abrirForm" onclick="abrirForm(0)">Abrir</button>
+                        <button id="fecharForm" onclick="abrirForm(1)">Fechar</button>
+                    </div>
+                </div>
+                <div class="form">
+                    <h2 id="titleForm">Envie sua Mensagem!</h2>
+
+                    <form action="mensagem.php" method="get" id="formMensagens">
+                        <label for="name" class="infoForm">Nome</label>
+                        <input type="text" name="barraNome" id="barraNome">
+
+                        <label for="email" class="infoForm">E-mail</label>
+                        <input type="email" name="barraEmail" id="barraEmail">
+
+                        <label for="mensagem" class="infoForm">Mensagem</label>
                         <input type="text" name="barraMensagem" id="barraMensagem">
+
+                        <div id="linhaEnviar">
+                            <input type="submit" name="botaoEnviarForm" id="enviarForm">
+                        </div>
                     </form>
                 </div>
 
@@ -61,9 +80,10 @@
             
             <!-- LADO DIREITO -->
             <section class="logotipo">
-                <img src="Images/biglogo.png" alt="Logotipo da Empresa" height="50%">
+                <img src="Images/biglogo.png" alt="Logotipo da Empresa" height="70%">
                 <p id="medoContato">Não tenha medo de nos contatar caso haja algum problema enquanto navega em nossa plataforma.</p>
             </section>
         </main>
+        <script src="JS/form.js"></script>
     </body>
 </html>

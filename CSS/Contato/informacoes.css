@@ -3,7 +3,7 @@
     margin-top: 3vh;
     margin-left: 5vh;
     width: 60vh;
-    height: 100vh;
+    height: 70vh;
 }
 
 #faleConosco {
@@ -70,19 +70,54 @@
     font-family: 'Inter', sans-serif;
 }
 
-#barraMensagem{
-    height: 5.5vh;
-    width: 143%;
+#botoesMensagem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-    border: 2px solid black;
+    width: 70%;
+
+    
+}
+
+#abrirForm {
+    width: 9vw;
+    height: 6vh;
+
+    font-size: large;
+    color: white;
+
+    border: 1.5px solid black;
+    background-color: #36C133;
     border-radius: 16px;
 
-    margin-left: 8px;
+    cursor: pointer;
 
-    padding-left: 8px;
+    transition: background-color 0.25s;
+}
 
-    font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
+#abrirForm:hover {
+    background-color: #2a9e28;
+}
+
+#fecharForm {
+    width: 9vw;
+    height: 6vh;
+
+    font-size: large;
+    color: white;
+
+    border: 1.5px solid black;
+    background-color: #C32A2A;
+    border-radius: 16px;
+
+    cursor: pointer;
+
+    transition: background-color 0.25s;
+}
+
+#fecharForm:hover {
+    background-color: #a32121;
 }
 
 #endereco {
@@ -98,3 +133,4 @@
     font-size: x-large;
     font-family: 'Inter', sans-serif;
 }
+
